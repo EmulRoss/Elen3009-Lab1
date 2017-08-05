@@ -18,6 +18,12 @@ int main()
     cout << "Or in a more familiar form: " << answer.real() << " + " << answer.imag() << "j" << endl;
 
     // answer++;
+    
+    //The commented line does not work because the "answer++" declaration 
+    //is attempting to use the shorthand incrementation that is solely used for integer types and therefore cannot increment the float data type
+
 
     return 0;
 }
+
+
